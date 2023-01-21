@@ -62,4 +62,4 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE 
+DELETE https://cse341-lesson03.onrender.com/contacts/63c4e4ad933d9d4fdb660309 HTTP/1.1
