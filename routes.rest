@@ -48,6 +48,17 @@ content-type: application/json
     "favoriteColor":"Blue", 
     "birthday":"08/22/1999"
 }
+### Post second contact Yuka
+POST https://cse341-lesson03.onrender.com/contacts HTTP/1.1 
+content-type: application/json
+
+{
+   "firstName": "Aiki",
+    "lastName": "Fujii",
+    "email": "yukaF@email.com",
+    "favoriteColor": "Pink",
+    "birthday": "08/22/97"
+}
 
 ###Put Request(Update)
 PUT https://cse341-lesson03.onrender.com/contacts/63c4e4ad933d9d4fdb660309 HTTP/1.1 
